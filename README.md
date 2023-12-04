@@ -1,7 +1,7 @@
 
 # [23.11] 염색 공정 프로세스 이해를 통한 염색생상 예측 모델 개발
 
-![ekaterina-grosheva-wcdHwuFJfn4-unsplash.jpg](%5B23%2011%5D%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%200d28a5feba1945f19b152c533d27bd1d/ekaterina-grosheva-wcdHwuFJfn4-unsplash.jpg)
+![ekaterina-grosheva-wcdHwuFJfn4-unsplash.jpg](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/6c1839cf-c3a0-4389-9336-cc35fe504afchttps://github.com/jun-suk/PJT_color_prediction/assets/73885257/c92e132a-f807-4b26-ae5c-d5a7d4f25278)
 
 ### 1. 프로젝트 주제
 
@@ -27,21 +27,21 @@
 - 베이스라인 모델의 색차(cie94) 0.9보다 좋은 성능의 모델 개발
     - 기업이 제시한 색차 공식(Cie 94)은 섬유 및 그래픽 아트 산업 종사자들이 사용하는 공식으로 사람 눈에 보이는 색상과 유산한 좌표계인 CIE LAB 기반(L*, a*, b*)으로 구하는 색차이다.
 
-![Untitled](%5B23%2011%5D%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%200d28a5feba1945f19b152c533d27bd1d/Untitled.png)
+![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/c92e132a-f807-4b26-ae5c-d5a7d4f25278)
 
 ### 5. 프로젝트 내용
 
 - 팀원들끼리 R&R을 나눠 각 모델 별로 고도화 작업 진행
     
-    ![Untitled](%5B23%2011%5D%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%200d28a5feba1945f19b152c533d27bd1d/Untitled%201.png)
+    ![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/7765ff62-93b4-4702-9c7b-42fda6690014)
     
 - 기존 베이스모델의 공정 layer 순서를 바꿔가며, 단방향 시계열 특성이 강한지 확인
     
-    ![Untitled](%5B23%2011%5D%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%200d28a5feba1945f19b152c533d27bd1d/Untitled%202.png)
+    ![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/21e380dc-3d74-4c4c-9303-e2e78d11f9f4)
     
 - TFT 모델을 맡아 단방향 시계열 특성이 약한다는 실험 결과에 따라 Varable Selection Network만 구성하여 실험
 
-![Untitled](%5B23%2011%5D%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%B7%E1%84%89%200d28a5feba1945f19b152c533d27bd1d/Untitled%203.png)
+![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/daff91cb-33ec-4143-ac57-3cdfa9182185)
 
 ### 6. 결과
 
