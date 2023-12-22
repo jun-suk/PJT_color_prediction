@@ -41,7 +41,7 @@
     
 - TFT 모델을 맡아 단방향 시계열 특성이 약한다는 실험 결과에 따라 Varable Selection Network만 구성하여 실험
 
-![Untitled]([https://github.com/jun-suk/PJT_color_prediction/assets/73885257/21e380dc-3d74-4c4c-9303-e2e78d11f9f4](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/eae206ce-97af-44cf-8432-88231e097115))
+![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/b9fa029b-75e4-4b69-8d44-e08cd8bbfbb6)
 
 ### 6. 결과
 
